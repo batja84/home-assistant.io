@@ -39,6 +39,7 @@ Devices must have a Yale Access module installed to function with this integrati
 - YUR/SSDL/1/SIL (Yale Unity Screen Door Lock - Australia)
 - IES-D210W-G0 (Yale Smart Safe)
 - YRSM-1 (Yale Smart Safe)
+- ASL-06 (Yale Linus Smart Lock)
 - ASL-05 (August WiFi Smart Lock - Gen 4)
 - ASL-03 (August Smart Lock Pro - Gen 3)
 - ASL-02 (August Smart Lock Pro - Gen 2)
@@ -96,3 +97,4 @@ The iOS app will only save the offline key to your device's filesystem if Auto-U
 The Android app will only save the offline key to your device's filesystem if Auto-Unlock has been enabled and used at least once. Auto-Unlock can be disabled once the key has been loaded.
 
 Root access is required to read the `key` and `slot` stored in `/data/data/com.august.luna/shared_prefs/PeripheralInfoCache.xml`
+If your phone is not rooted, you may be able to setup a rooted Android virtual machine, install the August (Yale Home) app on it and extract the necessary data from there.
